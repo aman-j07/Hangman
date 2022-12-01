@@ -1,0 +1,65 @@
+.container {
+    width: 94%;
+    padding: 3%;
+}
+
+.container__head {
+    font-size: 50px;
+    margin: 0;
+}
+
+.levelImg {
+    height: 400px;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.guessDivs {
+    min-width: 30px;
+    min-height: 25px;
+    border-bottom: 2px solid white;
+    margin: 10px 5px;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.verCenAround {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.gridKeyboard {
+    border: 1px solid;
+    border-radius: 4px;
+    max-width: 600px;
+    background-color: #d3d3d3;
+    padding: 20px;
+}
+
+.keys {
+    padding: 12px;
+    min-width: 45px;
+    margin: 7px 10px;
+    display: inline-block;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px,
+      rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+    cursor: grab;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btnChange:hover{
+    background-color: #d3d3d3;
+}
+
+.disabled {
+    box-shadow: none !important;
+}
